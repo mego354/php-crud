@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Table Styles */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+td {
+    max-width: 200px;
+}
+
+/* td.scrollable {
+    max-width: 200px;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: block;
+} */
+
+/* Ensures horizontal scrolling inside td */
+td.scrollable::-webkit-scrollbar {
+    height: 6px;
+}
+
+td.scrollable::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+td.scrollable:hover {
+    overflow-x: scroll;
+}
+
+/* Sidebar Navigation Styling */
+.list-group {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.list-group-item {
+    border: none;
+    background: #f8f9fa;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+.list-group-item:hover {
+    background: #007BFF;
+    transform: scale(1.05);
+}
+
+.list-group-item:hover a {
+    color: white;
+}
