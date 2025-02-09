@@ -19,7 +19,7 @@ A simple web-based Contact Management System built with PHP, MySQL, and Bootstra
 ### Steps to Install
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/your-repo/contact-manager.git
+   git clone https://github.com/mego354/php-crud.git
    cd contact-manager
    ```
 
@@ -61,5 +61,5 @@ contact-manager/
 ```
 
 ## License
-This project is open-source and available under the MIT License.
+This project is open-source.
 
